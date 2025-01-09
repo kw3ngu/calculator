@@ -2,6 +2,7 @@
     font-family: "Technology";
     src: url(Technology.ttf) format("truetype");
 }
+
 body{
     display: flex;
     justify-content: center;
@@ -23,7 +24,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-family: "Roboto", sans-serif;
+    font-family: "roboto", sans-serif;
     font-size: 25px;
 }
 .rows{
@@ -51,4 +52,7 @@ body{
     align-items: end;
     font-size: 40px;
     border-radius: 5px;
+}
+button{
+    
 }
