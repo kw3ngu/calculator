@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Technology";
+    src: url(Technology.ttf) format("truetype");
+}
+
+.hardbody{
+    height: 600px;
+    width: 400px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.keys{
+    height: 500px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.rows{
+    display: flex;
+    justify-content: space-evenly;
+}
+.number{
+    height: 60px;
+    width: 60px;
+    border: 3px groove red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen{
+    height: 60px;
+    width: 350px;
+    background-color: white;
+    font-family: "Technology";
+}
